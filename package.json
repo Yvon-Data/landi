@@ -1,0 +1,24 @@
+{
+  "name": "landi",
+  "version": "1.0.0",
+  "description": "API for Licensing and Insurance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yvon-Data/landi.git"
+  },
+  "author": "Roberto Delgado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yvon-Data/landi/issues"
+  },
+  "homepage": "https://github.com/Yvon-Data/landi#readme",
+  "dependencies": {
+    "puppeteer": "^19.7.1",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.6"
+  }
+}
