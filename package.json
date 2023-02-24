@@ -1,24 +1,19 @@
 {
-  "name": "landi",
+  "name": "li-api",
   "version": "1.0.0",
-  "description": "API for Licensing and Insurance",
-  "main": "index.js",
+  "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Yvon-Data/landi.git"
-  },
-  "author": "Roberto Delgado",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Yvon-Data/landi/issues"
-  },
-  "homepage": "https://github.com/Yvon-Data/landi#readme",
   "dependencies": {
-    "puppeteer": "^19.7.1",
-    "puppeteer-extra": "^3.3.4",
-    "puppeteer-extra-plugin-recaptcha": "^3.6.6"
+    "cheerio": "^1.0.0-rc.12",
+    "playwright": "^1.31.1",
+    "playwright-extra": "^4.3.5",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.1"
+  },
+  "devDependencies": {
+    "azure-functions-core-tools": "^4.x"
   }
 }
